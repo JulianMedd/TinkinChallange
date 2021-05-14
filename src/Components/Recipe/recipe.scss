@@ -1,0 +1,53 @@
+.recipe{
+    width: 1002px;
+    height: 40px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #19191A;
+
+    padding-left: 8px;
+    border-bottom: 1px solid #EBF0F3;
+    
+    .recipe__container{
+        display: grid;
+        grid-template-columns: 1.5fr 0.75fr 0.75fr;
+        grid-template-rows: 1fr;
+        gap: 0px;
+        grid-template-areas:
+        ". . .";
+
+        align-items: center;
+
+        form{
+            display: flex;
+
+            .reviews{
+                direction: rtl;
+                unicode-bidi: bidi-override;
+                font-size: 15px;
+
+                input[type="radio"] {
+                    display: none;
+                }
+
+                label {
+                    color: #E9DBCB;
+                }
+
+                label:hover,
+                label:hover ~ label {
+                    color: #FFD19A;
+                }
+
+                input[type="radio"]:checked ~ label {
+                    color: #FFD19A;
+                }
+                
+            }
+        }
+    }
+}   
+
