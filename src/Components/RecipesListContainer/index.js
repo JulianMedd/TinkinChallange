@@ -113,10 +113,7 @@ export const RecipeListContainer = () =>{
 
     },[search,filterCooked])
 
-    console.log(recipes);
-    console.log(search);
-    console.log(filterCooked);
-
+    
     return (
         <div className="recipeListContainer" >
             <RecipesList recipes={recipes} ></RecipesList>

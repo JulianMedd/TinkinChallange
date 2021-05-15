@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, { useContext } from 'react';
 import "./searchContainer.scss";
 import search from "../../assents/search.png"
 import { SearchContext } from '../../Context/SearchContext';
