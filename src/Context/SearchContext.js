@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 export const SearchContext = React.createContext([])
 
 export const SearchProvider = ({children}) =>{
-    const [search, setSearch] = useState()
-    const [filterCooked, setFilterCooked] = useState()
+    const [search, setSearch] = useState("")
+    const [filterCooked, setFilterCooked] = useState("all")
 
     const searchResult = (res) =>{
         let name = res.toLowerCase()
