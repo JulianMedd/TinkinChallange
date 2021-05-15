@@ -4,7 +4,7 @@ Aplicacion encomendada por una ONG con la misión de promover la preservación d
 Con la función de ayudar a los usuarios a encontrar y por que no a elaborar las recetas tradicionales andinas para que esta cultura perdure.
 El proyecto aun esta en proceso ya que faltan funcionalidades de la misma aplicaciones. no obstantes al ingresar podras visualizar un listado con las recetas y poder buscar alguna en particular.
 
-![image](/assentes/screenApp.jpg)
+![image](https://github.com/JulianMedd/TinkinChallange/blob/main/src/assents/screenApp.jpg)
 
 ***
 
