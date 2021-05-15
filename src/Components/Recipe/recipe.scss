@@ -10,6 +10,10 @@
 
     padding-left: 8px;
     border-bottom: 1px solid #EBF0F3;
+
+    &:hover{
+        background-color: #F9F9F9;
+    }
     
     .recipe__container{
         display: grid;
@@ -21,33 +25,43 @@
 
         align-items: center;
 
-        form{
-            display: flex;
+        p.recipeCooked{
+            color: #79797A;
+        }
 
-            .reviews{
-                direction: rtl;
-                unicode-bidi: bidi-override;
-                font-size: 15px;
+        .coockedCheck{
+            padding-bottom: 8px;
+            
 
-                input[type="radio"] {
-                    display: none;
+            .coockedCheck__btn{
+                width: 48px;
+                height: 24px;
+                background-color: #79797A;
+                border-radius: 16px;
+                display: flex;
+                align-items: center;
+                padding-left: 2px;
+                transition: all 0.5s ease-in-out;
+
+                .coockedCheck__circle{
+                    width: 18px;
+                    height: 18px;
+                    background-color: #FFFFFF;
+                    border-radius: 50%;
+                    transition: all 0.3s ease-in-out;
                 }
-
-                label {
-                    color: #E9DBCB;
-                }
-
-                label:hover,
-                label:hover ~ label {
-                    color: #FFD19A;
-                }
-
-                input[type="radio"]:checked ~ label {
-                    color: #FFD19A;
-                }
+            }
+            
+            .active {
+                background-color: #8DC63F;
                 
+
+                .coockedCheck__circle{
+                    margin-left: 28px;
+                }
+
             }
         }
     }
-}   
+}
 

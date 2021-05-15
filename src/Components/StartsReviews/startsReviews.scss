@@ -1,0 +1,27 @@
+form{
+    display: flex;
+
+    .reviews{
+        font-size: 20px;
+        line-height: 1px;
+
+        input[type="radio"] {
+            display: none;
+        }
+
+        label {
+            color: #E9DBCB;
+
+        }
+        
+        .startNoActive {
+            color: #E9DBCB;
+        }
+
+        .startActive{
+            color: #FFD19A;
+        }
+
+        
+    }
+}

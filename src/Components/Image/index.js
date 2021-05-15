@@ -4,5 +4,5 @@ import "./image.scss";
 
 export const Image = () =>{
 
-    return <section className="ImageSection"><img src={ImagePrincipal} /></section>
+    return <section className="ImageSection"><img src={ImagePrincipal} alt="imagen de plato"/></section>
 }

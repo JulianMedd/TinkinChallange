@@ -1,0 +1,20 @@
+.addBtn{
+    position: absolute;
+    left: 1018px;
+    top: 864px;
+    width: 56px;
+    height: 56px;
+    background-color: #0C969D;
+    border-radius: 50%;
+    color: #FFFFFF;
+    font-size: 50px;
+    text-align: center;
+    line-height: 60px;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    cursor: pointer;
+    box-shadow: 0px 0px 15px rgba(6, 62, 64, 0.3);
+}
